@@ -11,9 +11,9 @@
 body{
     font-family: 'Noto Sans KR', sans-serif;
     font-size:14px;
-    background-color: #f5f6f7;
+    background-color: #ccd6cb;
     line-height: 1.5em; /*브라우저에 따른 상대단위*/
-    color : #222;
+    color : #000000;
     margin: 0;
 }
 
@@ -56,12 +56,6 @@ margin: auto;
     margin-bottom: 5px;
 }
 
-/* .hostmember{
-    border: 1px solid #dadada;
-    padding: 15px;
-    width: 100%;    
-    margin-bottom: 5px;
-} */
 
 /* 약관동의 넣게 될 경우 대비해서 input css 따로 설정 */
 .member input:not(input[type=radio]),.member select{
