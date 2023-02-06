@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charser="utf-8">
+        <link rel="stylesheet" href="../css/signup.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="../js/signup.js"></script>
+    </head>
+
+    <body>
+        <div class="nav_part">
+            <div class="name">
+                <h1>회원가입</h1>
+                    <h4>Developer에서 당신의 가치를 높이세요</h4>
+            </div>
+        </div>
+        
+        <br/>
+    
+        <form action="" name="f">
+        <div class="member">
+
+            <div class="field">
+                <b>아이디</b>
+                <span class="placehold-text">
+                    <input type="text" name="id">
+                    <input type="button" value="아이디 중복체크">
+                </span>
+            </div>
+
+            <div class="field">
+                <b>비밀번호</b>
+                <input class="userpw" type="password" name="pwd1" placeholder="6자리 이상">
+                <input class="userpw-confirm" type="password" name="pwd2" placeholder="6자리 이상">
+                <input type="button" value="비밀번호 일치여부" onclick="b()">
+            </div>
+    
+            <div class="field">
+                <b>이름</b>
+                <input type="text" name="name">
+            </div>
+
+            <div class="field">
+                <b>닉네임</b>
+                <input type="text" name="nickname">
+            </div>            
+        
+            <div class="field">
+                <b>본인 확인 이메일</b>
+                <input type="email" placeholder="선택입력">
+            </div>            
+        
+            <div class="field tel-number">
+                <b>휴대전화</b>
+                <!-- <select>
+                    <option value="">대한민국 + 82</option>
+                </select> -->
+                <div>
+                    <input type="tel" placeholder="휴대전화번호 입력">                   
+                </div>
+            </div>
+
+            <div class="field">
+                <b>주소<small>(선택)</small></b>
+                <input type="text" name="address">
+            </div>
+            
+            <!-- 약관은 추가로 디벨롭예정 -->
+            <!-- <div class="">
+            약관
+            <div>
+            <input type="text" placeholder="개인정보 수집에 동의하여 주시기 바랍니다.">
+            </div>
+            <input type = "radio" name="ra">동의함
+            <input type = "radio" name="ra1">동의하지 않음
+            </div> -->
+    
+            
+                    <!-- 가입하기 -->
+            <input type="submit" value="가입하기" onclick="c()">
+            <!-- </div> -->
+            </form>
+
+    </body>
+
+</html>
